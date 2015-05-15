@@ -1,11 +1,18 @@
 {
   "name" : "jenkins-php-toolchain",
+  "require" : {
+    "phpunit/phpunit" : "~4",
+    "squizlabs/php_codesniffer" : "*",
+    "phploc/phploc" : "*",
+    "pdepend/pdepend" : "~2",
+    "phpmd/phpmd" : "~2",
+    "sebastian/phpcpd" : "~2",
+    "theseer/phpdox" : "*",
+    "mayflower/php-codebrowser" : "~1",
+    "phpunit/php-code-coverage" : "~2"
+  },
   "repositories" : [ {
     "type" : "composer",
     "url" : "https://packagist.org/"
-  } ],
-  "require": {
-   "phpunit/phpunit": "~4",
-   "squizlabs/php_codesniffer": "*"
-  }
+  } ]
 }
