@@ -1,0 +1,11 @@
+{
+  "name" : "jenkins-php-toolchain",
+  "repositories" : [ {
+    "type" : "composer",
+    "url" : "https://packagist.org/"
+  } ],
+  "require": {
+   "phpunit/phpunit": "~4",
+   "squizlabs/php_codesniffer": "*"
+  }
+}
